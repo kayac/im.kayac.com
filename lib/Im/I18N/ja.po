@@ -1,0 +1,256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: 2009-09-07 16:10+0900\n"
+"Last-Translator: Daisuke Murase <murase@kayac.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. ($c->uri_for('/login/')
+#: root/common/base.mt:23
+msgid "<a href=\"%1\">Login</a>"
+msgstr "<a href=\"%1\">ログイン</a>"
+
+#. ($c->uri_for('/logout/')
+#: root/common/base.mt:20
+msgid "<a href=\"%1\">Logout</a>"
+msgstr "<a href=\"%1\">ログアウト</a>"
+
+#. ($c->uri_for('/setting/')
+#: root/common/base.mt:19
+msgid "<a href=\"%1\">Setting</a>"
+msgstr "<a href=\"%1\">アカウント設定</a>"
+
+#. ($c->uri_for('/signup/')
+#: root/common/base.mt:22
+msgid "<a href=\"%1\">Signup</a>"
+msgstr "<a href=\"%1\">登録</a>"
+
+#: root/index.mt:66
+msgid "API Documentation"
+msgstr "APIドキュメント"
+
+#: lib/Im/Form/Setting.pm:25
+msgid "Account"
+msgstr "アカウント"
+
+#: lib/Im/Form/Setting/Activate.pm:5
+msgid "Activation code"
+msgstr "アクチベーションコード"
+
+#: root/setting/activate.mt:12
+msgid "Add <em>api&#64;im.kayac.com</em> to your IM contact list and send it the following code:"
+msgstr "お使いのIMのコンタクトリストに <em>api&#64;im.kayac.com</em> を追加し、以下のコードをメッセージとして送信してください："
+
+#:
+msgid "Add <em>im.kayac&#64;jabber.org</em> to your IM contact list and send it the following code:"
+msgstr "お使いのIMのコンタクトリストに <em>im.kayac&#64;jabber.org</em> を追加し、以下のコードをメッセージとして送信してください："
+
+#:
+msgid "Add <em>impost&#64;jabber.org</em> to your IM contact list and send it the following code:"
+msgstr "お使いのIMのコンタクトリストに <em>impost&#64;jabber.org</em> を追加し、以下のコードをメッセージとして送信してください："
+
+#:
+msgid "Address"
+msgstr "アドレス"
+
+#: root/setting/index.mt:34
+msgid "Change"
+msgstr "変更"
+
+#: lib/Im/Form/Setting/Activate.pm:17
+msgid "Delete and start over"
+msgstr "アカウント設定を削除し、設定しなおす"
+
+#: lib/Im/Form/Login.pm:7
+msgid "Failed to login. Username or password is wrong."
+msgstr "ログインに失敗しました。ユーザー名かパスワードが違います。"
+
+#: lib/Im/Form/Setting.pm:7
+msgid "IM"
+msgstr "IM"
+
+#: root/setting/activate.mt:10
+msgid "IM activation"
+msgstr "IMアクチベーション"
+
+#: root/login/login.mt:24 root/login/login.mt:3 root/login/login.mt:7
+msgid "Login"
+msgstr "ログイン"
+
+#: lib/Im/Form/Setting.pm:38
+msgid "No. Anyone can post message to you"
+msgstr "認証を使用しない。誰でもあなたにたいしてメッセージを送ることができます。"
+
+#:
+msgid "Our services"
+msgstr "Our services"
+
+#: lib/Im/Form/AccountBase.pm:19 lib/Im/Form/Setting.pm:46 root/index.mt:51
+msgid "Password"
+msgstr "パスワード"
+
+#. ($c->uri_for('/setting/')
+#: root/signup/complete.mt:11
+msgid "Plesae <a href=\"%1\">set the IM information</a> from following link."
+msgstr "以下のリンクから<a href=\"%1\">IMのアカウント設定</a>をしてください。"
+
+#: lib/Im/Form/Setting.pm:62
+msgid "Secret key"
+msgstr "秘密鍵"
+
+#. ($c->uri_for('/#docs')
+#: root/index.mt:18
+msgid "See <a href=\"%1\">documentation</a> for more detail."
+msgstr "詳細は<a href=\"%1\">ドキュメント</a>をご覧ください。"
+
+#: root/setting/activate.mt:3 root/setting/activate.mt:7 root/setting/index.mt:3 root/setting/index.mt:7 root/signup/complete.mt:14
+msgid "Setting"
+msgstr "設定"
+
+#: lib/Im/Controller/Setting.pm:51
+msgid "Setting has been updated"
+msgstr "設定は正常に更新されました。"
+
+#: root/index.mt:58 root/signup/complete.mt:3 root/signup/complete.mt:7 root/signup/index.mt:20 root/signup/index.mt:3 root/signup/index.mt:6
+msgid "Signup"
+msgstr "登録"
+
+#: root/index.mt:40
+msgid "Signup now!"
+msgstr "今すぐ登録！"
+
+#:
+msgid "Updates"
+msgstr "更新履歴"
+
+#: root/index.mt:8
+msgid "Usage:"
+msgstr "使い方："
+
+#: lib/Im/Form/Setting.pm:35
+msgid "Use authentication"
+msgstr "認証"
+
+#: lib/Im/Form/Setting.pm:39
+msgid "Use password authentication"
+msgstr "パスワード認証を使用する"
+
+#: lib/Im/Form/Setting.pm:40
+msgid "Use secret key authentication"
+msgstr "秘密鍵認証を使用する"
+
+#: lib/Im/Form/AccountBase.pm:6 root/index.mt:45
+msgid "Username"
+msgstr "ユーザー名"
+
+#: root/signup/complete.mt:9
+msgid "Your account was successfully created."
+msgstr "アカウント登録は正常に終了しました！"
+
+#:
+msgid "__Content-Transfer-Encoding"
+msgstr "8bit"
+
+#:
+msgid "__Content-Type"
+msgstr "text/plain; charset=utf-8"
+
+#:
+msgid "__Language-Team"
+msgstr "KAYAC Inc."
+
+#:
+msgid "__Last-Translator"
+msgstr "Daisuke Murase <murase@kayac.com>"
+
+#:
+msgid "__MIME-Version"
+msgstr "1.0"
+
+#:
+msgid "__PO-Revision-Date"
+msgstr "2007-10-08 20:57+0900"
+
+#:
+msgid "__Project-Id-Version"
+msgstr "im.kayac.com"
+
+#:
+msgid "invalid im type"
+msgstr "不正なIMです"
+
+#:
+msgid "invalid username"
+msgstr "ユーザー名は半角英数字で入力してください"
+
+#:
+msgid "login failed. username or password is wrong"
+msgstr "ログインに失敗しました。ユーザー名かパスワードが違います。"
+
+#. ($c->user->obj->username)
+#: root/common/base.mt:18
+msgid "logined as %1"
+msgstr "%1 としてログインしています"
+
+#: lib/Im/Form.pm:12
+msgid "please input %1"
+msgstr "%1を入力してください"
+
+#: lib/Im/Form.pm:14
+msgid "please input %1 as ascii characters without space"
+msgstr "%1はスペースを含まない半角英数で入力してください"
+
+#: lib/Im/Form.pm:13
+msgid "please input %1 as integer"
+msgstr "%1は整数で入力してください"
+
+#:
+msgid "please input 4 to 16 characters"
+msgstr "4文字以上16文字以内の半角英数字で入力してください"
+
+#:
+msgid "please input ascii characters"
+msgstr "半角英数で入力してください"
+
+#: lib/Im/Form/AccountBase.pm:30
+msgid "please input between 6 and 30 characters"
+msgstr "半角6文字〜30文字の間で入力してください"
+
+#:
+msgid "please input im account"
+msgstr "IMアカウントを入力してください"
+
+#:
+msgid "please input password"
+msgstr "パスワードを入力してください"
+
+#:
+msgid "please input username"
+msgstr "ユーザー名を入力してください"
+
+#:
+msgid "please select IM type"
+msgstr "IMの種類を選択してください"
+
+#:
+msgid "please use 3 to 10 characters"
+msgstr "3～10文字の間で入力してください"
+
+#:
+msgid "please use over 4 characters"
+msgstr "4文字以上で入力してください"
+
+#:
+msgid "select at least one"
+msgstr "選択してください"
+
+#: lib/Im/Form/Signup.pm:19
+msgid "this username already taken"
+msgstr "このユーザー名はすでに使用されています"

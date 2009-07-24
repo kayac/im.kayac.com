@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+@import "lib/yui/reset-min.css";
+@import "lib/yui/fonts-min.css";
+@import "lib/uni-form/uni-form.css";
+
+body {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+body em {
+  font-weight: bold;
+}
+
+#container {
+  width: 800px;
+  text-align: left;
+  font-size: 108%;
+  margin: 0 auto;
+}
+
+#menu {
+  float: right;
+  overflow: hidden;
+}
+
+#menu ul {
+  padding: 0;
+}
+
+#menu li {
+  display: block;
+  float: left;
+  padding: 0;
+}
+
+#menu li a {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+}
+
+#menu li.user a {
+  color: #000;
+}
+
+#menu li a:hover {
+  border-bottom: 1px dotted;
+}
+
+#menu li.user_info {
+  padding: 10px;
+  padding-right: 20px;
+}
+
+h1 {
+  font-size: 280%;
+  margin: 20px 0 40px 0;
+}
+
+h1 a {
+  color: #81CB21;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 161.6%;
+  line-height: 150%;
+  border-bottom: 2px solid #000;
+  margin: 20px 0;
+  margin-top: 60px;
+}
+
+h3 {
+  font-size: 120%;
+  line-height: 150%;
+  font-weight: bold;
+  margin: 10px 0;
+  margin-top: 20px;
+}
+
+h4 {
+  font-weight: bold;
+  margin: 10px 0;
+  margin-top: 20px;
+}
+
+form {
+  color: #585858;
+  background-color: #f5f5f5;
+  border-top: 1px dashed #d3d3d3;
+}
+
+form.uniForm .blockLabels .ctrlHolder {
+  padding: 7px 30px;
+}
+
+form.uniForm .buttonHolder {
+  text-align: left;
+  padding: 7px 30px;
+}
+
+form.uniForm .selectInput {
+  float: left;
+}
+
+form.uniForm .blockLabels .ctrlHolder.focused {
+  background-color: transparent;
+}
+
+form input, form select {
+  background-color: #fff;
+  border: 1px solid #c6c6c6;
+  padding: 3px;
+  font-weight: bold;
+}
+
+form.uniForm .blockLabels .ctrlHolder.focused input {
+  border-color: #777;
+}
+
+form.uniForm .error {
+  font-weight: bold;
+  background: none;
+  border: none;
+  color: #fb0000;
+  padding: 3px;
+}
+
+form.uniForm .submitButton {
+  _padding: 3px 3px 0px 3px;
+}
+
+form.uniForm fieldset legend {
+  color: #585858;
+  padding: 5px 0 5px 20px;
+}
+
+form.uniForm fieldset label.blockLabels {
+  padding: 3px 0px;
+}
+
+form.uniForm .radioInput {
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #5b0;
+  border-bottom: 1px dotted;
+}
+
+p {
+  padding: 10px 0;
+}
+
+pre {
+  border: 1px solid #d3d3d3;
+  margin: 6px 0;
+}
+
+pre code {
+  display: block;
+  background-color: #f5f5f5;
+  padding: 8px;
+  font-family: Consolas, Monaco, "Courier New", monospace;
+  letter-spacing: 1px;
+}
+
+#footer {
+  font-size: 95%;
+  color: #999;
+  margin: 50px 0;
+  font-family: Tahoma, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#footer p {
+  padding: 5px 0;
+}
+
+ul {
+  padding: 5px 30px;
+}
+
+ul li {
+  list-style-type: circle;
+  padding: 5px;
+}
+
+hr {
+  color: #fff;
+  border-width: 0px;
+  padding: 10px;
+}
+
+ul#services {
+  padding: 5px 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+ul#services li {
+  display: block;
+  float: left;
+  padding: 10px;
+  width: 220px;
+}
+
+ul#services li a {
+  border: none;
+}
